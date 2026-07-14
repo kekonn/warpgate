@@ -8636,7 +8636,7 @@ dependencies = [
  "bytes",
  "ecb",
  "futures",
- "getrandom 0.2.17",
+ "getrandom 0.4.2",
  "md-5 0.11.0",
  "num-bigint",
  "rustls 0.23.41",
