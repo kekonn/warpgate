@@ -27,7 +27,7 @@ RUN just npm ci \
     && just build-rdp-helper \
     && cargo build --features mysql,postgres --release
 
-FROM debian:bullseye-20260623@sha256:e7100042ddfd3c1fb9d4a5bf15acbdb1058d7bb3340142916d3413a5c001fc89
+FROM debian:bullseye-20260803@sha256:99cdf7792e25416bd801861ccd8e2fb27fb527b25e8d9a8704ebc3ead2015675
 LABEL maintainer=heywoodlh
 ARG USER_ID=1000
 
